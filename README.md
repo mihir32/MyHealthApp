@@ -29,7 +29,7 @@ Myhealthapp is an Android application designed to help users manage their health
 
 1. Clone the Repository
     ```bash
-    git clone https://github.com/mishra-mihir/Myhealthapp.git
+    git clone https://github.com/mihir32/Myhealthapp.git
     ```
 
 2. Open the project in Android Studio.
