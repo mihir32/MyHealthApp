@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dash"
+        android:title="@string/dashB"
+        android:icon="@drawable/vector"/>
+
+    <item
+        android:id="@+id/log"
+        android:title="@string/log"
+        android:icon="@drawable/subtract"/>
+
+    <item
+        android:id="@+id/tar"
+        android:title="@string/tar"
+        android:icon="@drawable/goal"/>
+</menu>

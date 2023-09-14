@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFragOne"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010F35"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="@string/logTitle"
+        android:gravity="center"
+        android:background="#0028F5"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bFast"
+                    android:layout_width="0sp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/breakfast"
+                    android:paddingVertical="35dp"
+                    android:backgroundTint="#225DFF"
+                    app:cornerRadius="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/bFast" />
+
+                <com.google.android.material.button.MaterialButton
+
+                    android:id="@+id/lunch"
+                    android:layout_width="0sp"
+                    android:layout_height="200dp"
+                    android:paddingVertical="35dp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_weight="1"
+                    android:text="@string/lun"
+                    android:drawableTop="@drawable/beverage"
+                    android:backgroundTint="#225DFF"
+                    android:textColor="@color/white"
+                    app:cornerRadius="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/dinner"
+                    android:layout_width="0sp"
+                    android:layout_height="200dp"
+                    android:paddingVertical="35dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/dish"
+                    android:backgroundTint="#225DFF"
+                    app:cornerRadius="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/din" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/miscellaneous"
+                    android:layout_width="0sp"
+                    android:layout_height="200dp"
+                    android:paddingVertical="35dp"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/apple"
+                    android:backgroundTint="#225DFF"
+                    app:cornerRadius="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/misc" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="370sp"
+            android:layout_height="370sp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            />
+
+        <FrameLayout
+            android:id="@+id/takePic"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Classified as:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:id="@+id/classified"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="#C30000"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:id="@+id/result"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/confidencesText"
+                    android:text="Calories:"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/result"
+                    android:layout_marginTop="30sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textSize="22sp"
+                    android:id="@+id/confidence"
+                    android:textColor="@color/white"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:text="Take Picture"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20sp"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

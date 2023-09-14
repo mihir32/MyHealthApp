@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Myhealthapp</string>
+    <string name="title">Welcome to Smart Calorie Tracker</string>
+    <string name="cal">Calories</string>
+    <string name="remain">Remaining = Goal - Food</string>
+    <string name="remaining">remaining</string>
+    <!--    <string name="defCal">1500</string>-->
+    <string name="dashB">DashBoard</string>
+    <string name="log">Log</string>
+    <string name="tar">Target</string>
+    <string name="food">Food</string>
+    <string name="goal">Goal</string>
+    <string name="logTitle">Log</string>
+    <string name="tarTitle">Target</string>
+    <string name="bFast">Breakfast</string>
+    <string name="lun">Lunch</string>
+    <string name="din">Dinner</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="tarDes">Set a calorie target, this helps you \nkeep track of your daily intake</string>
+    <string name="calTar">Your Daily Calorie Target</string>
+    <string name="record">Record</string>
+    <string name="chgTar">Change Target</string>
+    <string name="addFood">Add Food</string>
+    <string name="logOut">Log Out</string>
+    <string name="food_not_found">Food not found.</string>
+    <string name="search">Search</string>
+    <string name="listitem">List Item</string>
+    <string name="kcal">100 kcal</string>
+    <string name="usingCam">Scan your food</string>
+    <string name="manually">Enter manually</string>
+    <string name="label_carbs">Carbs</string>
+    <string name="label_proteins">Proteins</string>
+    <string name="label_fats">Fats</string>
+    <string name="label_total">Total</string>
+    <string name="label_kcal">kcal</string>
+    <string name="add_food">Add Food</string>
+    <string name="has_kcal">%2d Kcal per 100 g</string>
+    <string name="add_quantity">Enter serving in grams</string>
+    <string name="weight">%d g</string>
+    <string name="cals">%d Kcal</string>
+    <string name="percent">%d %%</string>
+    <string name="select_date">Select Date</string>
+    <string name="usingMic">Voice Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

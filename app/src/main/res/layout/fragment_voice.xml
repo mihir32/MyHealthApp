@@ -1,0 +1,86 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#233148"
+    android:id="@+id/voiceFrag"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1B1F29"
+        android:padding="15sp"
+        android:text="@string/usingMic"
+        android:textAlignment="center"
+        android:textColor="#4F9AFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/record_voice"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:textSize="20sp"
+        app:cornerRadius="45dp"
+        app:icon="@drawable/mic"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/correct"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_margin="20sp"
+                android:visibility="invisible"
+                app:cornerRadius="35dp"
+                app:icon="@drawable/correct"
+                app:iconSize="30dp"
+                app:iconPadding="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/wrong"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_margin="20sp"
+                android:visibility="invisible"
+                app:cornerRadius="35dp"
+                app:icon="@drawable/wrong"
+                app:iconSize="30dp"
+                app:iconPadding="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
