@@ -1,4 +1,4 @@
-# Myhealthapp
+# MyHealthApp
 
 ## Overview
 
