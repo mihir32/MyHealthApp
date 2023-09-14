@@ -18,7 +18,6 @@ Myhealthapp is an Android application designed to help users manage their health
 - Users can log their food intake through various methods:
   - Manual entry
   - Camera capture
-  - Voice commands
 
 ### Health Targets
 - Users can set daily health targets like caloric intake and exercise goals.
